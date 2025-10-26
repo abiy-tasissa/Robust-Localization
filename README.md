@@ -1,4 +1,4 @@
-# robust_node_localization
+# Robust localization via structured compressive sensing
 
 This is a compressive sensing based approach for localization, where the objective is to determine the positions of target nodes given their distances to $m$ anchor nodes with known positions. We assume that the last anchor node serves as the central node. In our setting, a random subset ($\alpha$) of the target nodes is highly 
 corrupted. This means that, for these nodes, a random subset ($k$) of their distance measurements to the anchors is highly corrupted. The corruption model is as follows:
