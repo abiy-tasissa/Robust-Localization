@@ -3,7 +3,7 @@
 The sets of scripts here consider the problem of localization, where the objective is to determine the positions of target nodes given their distances to m 
 anchor nodes with known positions. We assume that the last anchor node serves as the central node. In our setting, a random subset (alpha) of the target nodes is highly 
 corrupted. This means that, for these nodes, a random subset (k) of their distance measurements to the anchors is highly corrupted. The corruption model is as follows:
-(1 +  U(beta_min,beta_max)) * d_{i,j}^2
+$(1 +  U(beta_min,beta_max)) * d_{i,j}^2$
 where U(beta_min,beta_max) is uniform random variable in the interval [beta_min,beta_max], and  d_{i,j}^2 represents the squared distance. 
 
 Our goal is to:
